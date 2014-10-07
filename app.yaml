@@ -6,14 +6,8 @@ threadsafe: true
 
 handlers:
 
-- url: /helloworld.html
-  script: helloworld.html
-
-- url: /process.php
-  script: process.php
-
-- url: /csv.php
-  script: csv.php
+- url: /hello world.html
+  script: hello world.html
   
 - url: /.*
   script: hello world.html
